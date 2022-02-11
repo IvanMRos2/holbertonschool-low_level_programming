@@ -9,9 +9,10 @@
 int main(void)
 {
 	char alf;
-	alf = abcdefghijklmnopqrstuvwxyz;
-	do{
+
+	for (alf = "a"; alf <= "z\n"; alf++)
+
 		putchar(alf);
-	}
-return (0);
+
+	return (0);
 }
