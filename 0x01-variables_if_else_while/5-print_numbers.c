@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - This program prints the numbers only if
- * they are base of 10
+ * main - This program prints the numbers
+ * only if they are less than 10
  * Return: zero
  */
 
