@@ -9,11 +9,15 @@ int main(void)
 {
 	int comma;
 
-	for (comma = 48; comma < 58; comma++)
+	for (comma = 48; comma <= 57; comma++)
 	{
 		putchar(comma);
+		if (n != 56)
+		{
 		putchar(44);
+		putchar ('\n');
+		}
+		
 	}
-			putchar ('\n');
-			return (0);
+	return (0);
 }
