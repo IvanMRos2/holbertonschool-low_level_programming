@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main This script prints the size of various types
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
@@ -8,4 +13,4 @@ int main(void)
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 
 	return (0);
-{	
+}
