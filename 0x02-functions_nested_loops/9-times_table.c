@@ -15,10 +15,10 @@ for (x = 0; x < 10; x++)
 	for (y = 1; y < 10; y++)
 	{
 		_putchar (',');
-		_putchar (' ');	
-		
+		_putchar (' ');
+
 		z = x * y;
-	
+
 	if (z < 10)
 	_putchar (' ');
 	else
