@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (FizzBuzz == 1)
 		{
-			printf(" %d", FizzBuzz);
+			printf("%d", FizzBuzz);
 		}
 		else if (FizzBuzz % 3 == 0 && FizzBuzz % 5 != 0)
 		{
