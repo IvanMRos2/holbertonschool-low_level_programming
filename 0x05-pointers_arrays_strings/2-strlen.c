@@ -1,5 +1,7 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
+
 /**
  * _strlen - This function returns the length of a string
  * @s: The variable that points the string
@@ -8,13 +10,8 @@
 
 int _strlen(char *s)
 {
-	int L = 0;
+	int L;
 
-	while (*s != '0')
-	{
-		L++;
-		s++;
-	}
-
+	L = strlen(s);
 	return (L);
 }
