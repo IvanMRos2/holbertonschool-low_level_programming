@@ -2,8 +2,8 @@
 
 /**
  * reset_to_98 - This function updates the value it points to 98
- * @n: The variable that will point to the other value
- * @o: The New variable
+ * @n: The variable that already have a value
+ * @o:
  * Return: No return
  */
 
