@@ -16,8 +16,8 @@ void puts2(char *str)
 	for (evtwo = 0; evtwo < Len; evtwo++)
 	{
 		if (evtwo % 2 == 0)
-		{		
-		_putchar(str[evtwo]);
+		{
+			_putchar(str[evtwo]);
 		}
 	}
 	_putchar('\n');
