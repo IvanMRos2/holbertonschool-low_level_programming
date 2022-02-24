@@ -2,9 +2,9 @@
 
 /**
  * leet - changes characters
- *
+ * @str: The string to be checked
  * Return: string
- */ 
+ */
 
 char *leet(char *str)
 {
