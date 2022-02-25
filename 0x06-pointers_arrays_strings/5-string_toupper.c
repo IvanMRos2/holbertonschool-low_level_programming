@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * leet - changes characters
- *
+ * string_toupper - Changes lowercase into uppercase
+ * 
  * Return: string
  */
 
