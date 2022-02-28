@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _mempcy - Copies memory area
+ * _memcpy - Copies memory area
  * @dest: Destination
- * @char: Characters to copy
+ * @src: Characters to copy
  * @n: Numbers of bytes to copy
  *
  * Return: Pointer to dest
