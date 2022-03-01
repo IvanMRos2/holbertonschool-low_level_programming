@@ -4,7 +4,7 @@
  * _strspn - This function gets the length of a prefix
  * @s: String to check
  * @accept: String with the characters to match in s
- * Return: 0
+ * Return: The lenght
  */
 
 unsigned int _strspn(char *s, char *accept)
