@@ -24,7 +24,7 @@ int _sqrt_recursion(int n)
  * Return: the value if the square is natural, if not, return -1
  */
 
-int scnd_sqrt_recursion(int n, int q);
+int scnd_sqrt_recursion(int n, int q)
 
 {
 	if ((q * q) > n)
