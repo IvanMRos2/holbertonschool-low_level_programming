@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
 {
 	int x, y, result;
 
-	if(argc <= 2)
+	if (argc <= 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	x = atoi(argv[1]);
